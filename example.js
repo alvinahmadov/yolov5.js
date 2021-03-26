@@ -6,9 +6,10 @@ const __dirname = path.resolve(path.dirname(''));
 const config = {
 	/**
 	 * We can use as a single image file name or
-	 * path where images are located
+	 * path where images are located.
+	 * E.g. ./data/images | ./data/images/sample1.png
 	 * */
-	source: path.resolve(__dirname, './data/images'),
+	source: path.resolve(__dirname, './data/images/sample1.png'),
 	/**
 	 * Model weights can be downloaded
 	 * from https://github.com/ultralytics/yolov5/releases

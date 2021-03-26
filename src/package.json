@@ -1,0 +1,27 @@
+{
+	"name": "yolov5",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "index.mjs",
+	"scripts": {
+		"postinstall": "node tool/install.js"
+	},
+	"dependencies": {
+		"@pipcook/boa": "^1.2.0-beta.0"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"exports": [
+		"./index.mjs",
+		"./yolov5.mjs"
+	],
+	"devDependencies": {
+		"canvas": "^2.7.0",
+		"js-yaml": "^4.0.0",
+		"jsdom": "^16.5.1",
+		"jsonfile": "^6.1.0",
+		"opencv-wasm": "^4.3.0-10"
+	}
+}

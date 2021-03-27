@@ -1,5 +1,5 @@
-import path from "path";
-import YOLOv5    from "./src/index.mjs"
+import path 	from "path";
+import YOLOv5 	from "./src/index.mjs"
 
 const __dirname = path.resolve(path.dirname(''));
 
@@ -16,7 +16,7 @@ const config = {
 	 * and saved in data/weights directory
 	 * */
 	model: path.resolve(__dirname, './data/weights/yolov5m.pt'),
-	size:  640
+	size: 640
 };
 
 (async () => {

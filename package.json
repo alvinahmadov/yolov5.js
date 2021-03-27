@@ -11,7 +11,6 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"adm-zip": "^0.5.4",
 		"yolov5": "file:src"
 	}
 }

@@ -7,9 +7,6 @@
 	"scripts": {
 		"preinstall": "npm i src"
 	},
-	"devDependencies": {
-		"extract-zip": "^2.0.1"
-	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",

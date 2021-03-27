@@ -11,6 +11,6 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"yolov5": "file:src"
+		"yolov5.js": "file:src"
 	}
 }

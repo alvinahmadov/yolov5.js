@@ -332,3 +332,5 @@ dmypy.json
 cython_debug/
 
 *.pt
+
+ .vscode/
